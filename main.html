@@ -3,11 +3,38 @@
 <html>
 
 <head>
+	<title>Accessible portfolio</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1 role='heading'>My Portfolio</h1>
+	<nav role="navigation">
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<a href="#contact">Contact</a>
+	</nav>
+	<img role='image' 
+		  src="profile.jpg"
+		  alt="Personal portfolio picture"
+		  width = '200'
+	/>
+	<section id="about">
+        <p>
+            Hello! I am a frontend developer passionate about building
+            responsive and accessible web applications using HTML, CSS,
+            JavaScript, and React.
+        </p>
+    </section>
+	<section id="skills">
+        <h2>Skills</h2>
+        <ul role="list">
+            <li role="listitem">HTML</li>
+            <li role="listitem">CSS</li>
+            <li role="listitem">JavaScript</li>
+        </ul>
+    </section>
     <script type="text/javascript" src="./script.js">
 </script>
 
